@@ -1,0 +1,50 @@
+.price_label-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+  margin: 0 15px;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.price_label-container::after{
+  content: "";
+  width: 120%;
+  height: 50%;
+  background: linear-gradient(to bottom, #00000000, #fff);
+  position: absolute;
+  top: -51%;
+  left: -8%;
+}
+.price_labe-item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.price_labe-item p{
+  text-align: end;
+  font-size: 18px;
+  font-weight: 600;
+}
+.price_labe-item h2{
+  font-size: 22px;
+  line-height: 28px;
+  padding: .5rem 0;
+}
+.price_label-total{
+  border-top: 1px solid #555;
+  margin-top: 5%;
+}
+.price_label-total h2{
+  font-size: 28px;
+  line-height: 32px;
+  margin-left: 25px;
+}
+.price_label-total p {
+  font-size: 24px;
+  line-height: 28px;
+  margin-right: 25px;
+}

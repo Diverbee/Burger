@@ -1,0 +1,36 @@
+.food_info{
+  flex: .3;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.food_info:hover{
+  transition: all .5s ease-in-out;
+  background: rgba(0, 0, 0, .1);
+} 
+.food_info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.food_info-texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.food_info h2{
+  font-size: 25px;
+  line-height: 32px;
+}
+.food_info img{
+  width: 100px;
+  border-radius: 10px;
+}

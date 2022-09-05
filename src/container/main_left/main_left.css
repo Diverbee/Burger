@@ -1,0 +1,9 @@
+.main_left{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}

@@ -1,0 +1,10 @@
+/* .main_right__price{
+  height: 30vh;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #000;
+} */
+.main_right{
+  overflow: hidden;
+}
